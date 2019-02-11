@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="Will2346@live.co.uk",
     description="A package for the margin game",
     long_description=long_description,
-    long_description_content_type="text/reStructuredText",
+    long_description_content_type="text/markdown",
     url="https://github.com/WillDudley/margingame",
     packages=setuptools.find_packages(),
     classifiers=[

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: margingame
+Version: 0.0.1
+Summary: A package for the margin game
+Home-page: https://github.com/WillDudley/margingame
+Author: WillDudley
+Author-email: Will2346@live.co.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

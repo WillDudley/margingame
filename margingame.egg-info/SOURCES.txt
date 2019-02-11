@@ -1,0 +1,12 @@
+README.md
+setup.py
+margingame/Initialise.py
+margingame/__init__.py
+margingame.egg-info/PKG-INFO
+margingame.egg-info/SOURCES.txt
+margingame.egg-info/dependency_links.txt
+margingame.egg-info/top_level.txt
+margingame/functions/__init__.py
+margingame/functions/costs.py
+margingame/functions/payoffs.py
+margingame/functions/probabilities.py
