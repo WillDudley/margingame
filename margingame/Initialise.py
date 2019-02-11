@@ -1,5 +1,6 @@
 import nashpy as nash
 import pandas as pd
+import dask.array as da
 from functions.payoffs import payoff_matrix_with_costs
 
 #  https://nashpy.readthedocs.io/en/stable/tutorial/index.html#creating-a-game
@@ -45,11 +46,18 @@ class Initialise:
         self.A = self.attacker_payoff_matrix.to_numpy()
         self.B = self.defender_payoff_matrix.to_numpy()
 
-        self.game = nash.Game(self.A, self.B)
+        no_of_columns = no_of_probabilities * no_of_variances
+        no_of_rows = no_of_deltas
+        self.dask_A = da.from_array(self.A, (no_of_rows // 4, no_of_columns // 4))
+        self.dask_B = da.from_array(self.B, (no_of_rows // 4, no_of_columns // 4))
 
-    def calculate_equilibria_support_enum(self):
+    def calculate_equilibria_support_enum(self, A=None, B=None):
         """
         :return: List of equilibria for the game found via support enumeration
         """
-        equilibria = self.game.support_enumeration()
+        if A is None and B is None:
+            A, B = self.dask_A, self.dask_B
+
+        game = nash.Game(A, B)
+        equilibria = game.support_enumeration()
         return list(equilibria)

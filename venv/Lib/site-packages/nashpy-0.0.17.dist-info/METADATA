@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: nashpy
+Version: 0.0.17
+Summary: A library to compute equilibria of 2 player normal form games
+Home-page: UNKNOWN
+Author: Vince Knight, James Campbell
+Author-email: knightva@cardiff.ac.uk
+License: The MIT License (MIT)
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.12.1)
+Requires-Dist: scipy (>=0.19.0)
+
+UNKNOWN
+
+
