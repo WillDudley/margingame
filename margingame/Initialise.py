@@ -1,7 +1,7 @@
 import nashpy as nash
-import pandas as pd
 import dask.array as da
-from functions.payoffs import payoff_matrix_with_costs
+from margingame.payoff.payoffs import payoff_matrix_with_costs
+from margingame.visualisation.heatmap import heatmap
 
 #  https://nashpy.readthedocs.io/en/stable/tutorial/index.html#creating-a-game
 
@@ -61,3 +61,9 @@ class Initialise:
         game = nash.Game(A, B)
         equilibria = game.support_enumeration()
         return list(equilibria)
+
+    def print_heatmaps(self):
+        print("Attacker's payoff heatmap:")
+        print(heatmap(self.attacker_payoff_matrix))
+        print("\nDefender's payoff heatmap:")
+        print(heatmap(self.defender_payoff_matrix))
