@@ -1,6 +1,6 @@
 `pip install margingame`
 
-This package is mainly for just one class, Initialise(...). 
+This package is mainly for just one class, `Initialise(...)`. 
 You can:
 <ul>
 <li> Pass in non-default parameters for a custome game. </li>
