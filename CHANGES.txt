@@ -1,2 +1,4 @@
-V0.0.1 - Initial build
-V0.1.0 - Dask integration
+V0.0.1 - Initial build.
+V0.1.0 - Dask integration.
+V0.1.5 - Cleaned imports, added heatmaps.
+V0.1.6 - Attempted heatmap patch

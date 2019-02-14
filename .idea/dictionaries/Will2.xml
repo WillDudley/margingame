@@ -2,7 +2,10 @@
   <dictionary name="Will2">
     <words>
       <w>dask</w>
+      <w>dataframe</w>
       <w>equilibria</w>
+      <w>heatmap</w>
+      <w>heatmaps</w>
     </words>
   </dictionary>
 </component>

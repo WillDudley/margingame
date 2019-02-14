@@ -1,10 +1,12 @@
 import nashpy as nash
-import pandas as pd
 import dask.array as da
-from functions.payoffs import payoff_matrix_with_costs
+from margingame.payoff.payoffs import payoff_matrix_with_costs
+# from margingame.visualisation.heatmap import heatmap
+
 
 #  https://nashpy.readthedocs.io/en/stable/tutorial/index.html#creating-a-game
-
+#  import matplotlib
+#  %matplotlib inline
 
 class Initialise:
     def __init__(self,
@@ -48,8 +50,8 @@ class Initialise:
 
         no_of_columns = no_of_probabilities * no_of_variances
         no_of_rows = no_of_deltas
-        self.dask_A = da.from_array(self.A, (no_of_rows // 4, no_of_columns // 4))
-        self.dask_B = da.from_array(self.B, (no_of_rows // 4, no_of_columns // 4))
+        self.dask_A = da.from_array(self.A, (no_of_rows, no_of_columns))
+        self.dask_B = da.from_array(self.B, (no_of_rows, no_of_columns))
 
     def calculate_equilibria_support_enum(self, A=None, B=None):
         """
@@ -61,3 +63,9 @@ class Initialise:
         game = nash.Game(A, B)
         equilibria = game.support_enumeration()
         return list(equilibria)
+
+    def print_heatmaps(self, ipython=False):
+        print("Attacker's payoff heatmap:")
+        print(heatmap(self.attacker_payoff_matrix, ipython=ipython))
+        print("\nDefender's payoff heatmap:")
+        print(heatmap(self.defender_payoff_matrix, ipython=ipython))
