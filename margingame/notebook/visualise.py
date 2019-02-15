@@ -94,27 +94,27 @@ def visualise(no_of_deltas=4,
                            style=style)
 
     # Cost parameters
-    delta_parameter = widgets.IntSlider(value=7,
-                                        min=4,
-                                        max=10,
-                                        step=1,
-                                        description='Delta parameter:',
-                                        continuous_update=False,
-                                        style=style)
-    prob_b_parameter = widgets.IntSlider(value=7,
-                                         min=4,
-                                         max=10,
-                                         step=1,
-                                         description='Prob_b parameter:',
-                                         continuous_update=False,
-                                         style=style)
-    variance_parameter = widgets.IntSlider(value=7,
-                                           min=4,
-                                           max=10,
-                                           step=1,
-                                           description='Variance parameter:',
+    delta_parameter = widgets.FloatSlider(value=1,
+                                          min=0.01,
+                                          max=5,
+                                          step=0.01,
+                                          description='Delta parameter:',
+                                          continuous_update=False,
+                                          style=style)
+    prob_b_parameter = widgets.FloatSlider(value=1,
+                                           min=0.1,
+                                           max=4,
+                                           step=0.2,
+                                           description='Prob_b parameter:',
                                            continuous_update=False,
                                            style=style)
+    variance_parameter = widgets.FloatSlider(value=0.2,
+                                             min=0.1,
+                                             max=1,
+                                             step=0.05,
+                                             description='Variance parameter:',
+                                             continuous_update=False,
+                                             style=style)
 
     tab = widgets.Tab(children=[widgets.HBox([delta_parameter, prob_b_parameter, variance_parameter]),
                                 widgets.HBox([a1, a2, a3]),
