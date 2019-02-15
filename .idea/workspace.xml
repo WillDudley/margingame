@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6a7e6e-1247-4016-9d94-e1c79aed7684" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/margingame/notebook/visualise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGES.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/margingame.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/margingame.egg-info/PKG-INFO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/margingame.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/margingame.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/margingame/Initialise.py" beforeDir="false" afterPath="$PROJECT_DIR$/margingame/Initialise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +17,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CHANGES.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="85">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
+        <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/margingame/notebook/visualise.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,13 +89,14 @@
         <option value="$PROJECT_DIR$/margingame/notebook/notebook.py" />
         <option value="$PROJECT_DIR$/margingame/notebook/heatmaps.py" />
         <option value="$PROJECT_DIR$/margingame/Initialise.py" />
+        <option value="$PROJECT_DIR$/margingame/notebook/visualise.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/CHANGES.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
+    <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
@@ -276,23 +295,22 @@
       <workItem from="1550081848097" duration="47000" />
       <workItem from="1550081990192" duration="129000" />
       <workItem from="1550176874832" duration="17000" />
-      <workItem from="1550227955104" duration="244000" />
+      <workItem from="1550227955104" duration="2009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31775000" />
+    <option name="totallyTimeSpent" value="33540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32454923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15704697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32402235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,13 +319,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3282123" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24293785" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24162011" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.11440678" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" x="0" y="0" width="145" height="640" id="Documentation" order="4" side_tool="true" visible="true" weight="0.04993065" />
+      <window_info anchor="right" x="0" y="0" width="145" height="640" id="Documentation" order="4" side_tool="true" visible="true" weight="0.024161074" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -315,9 +333,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -396,17 +411,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/margingame/notebook/visualise.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CHANGES.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>

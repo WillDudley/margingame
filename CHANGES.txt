@@ -3,3 +3,4 @@ V0.1.0 - Dask integration.
 V0.1.5 - Cleaned imports, added heatmaps.
 V0.1.6 - Attempted heatmap patch.
 V0.2.0 - Basic interactive heatmaps implemented.
+V0.2.1 - Ported margingame.notebook.visualise from .ipynb to .py.
