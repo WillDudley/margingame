@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6a7e6e-1247-4016-9d94-e1c79aed7684" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CHANGES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/margingame.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/margingame.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/margingame/notebook/visualise.py" beforeDir="false" afterPath="$PROJECT_DIR$/margingame/notebook/visualise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-    </list>
+    <list default="true" id="4a6a7e6e-1247-4016-9d94-e1c79aed7684" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,12 +298,12 @@
       <workItem from="1550081848097" duration="47000" />
       <workItem from="1550081990192" duration="129000" />
       <workItem from="1550176874832" duration="17000" />
-      <workItem from="1550227955104" duration="5567000" />
+      <workItem from="1550227955104" duration="6158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37098000" />
+    <option name="totallyTimeSpent" value="37689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
