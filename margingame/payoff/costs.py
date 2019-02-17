@@ -20,10 +20,10 @@ def cost_of_increasing_success_rate(prob_b, scaling_parameter=1):
     return scaling_parameter * np.tan((np.pi / 2) * prob_b)
 
 
-def cost_of_reducing_variance(variance=1, scaling_parameter=0.2):
+def cost_of_reducing_std_dev(std_dev=1, scaling_parameter=0.2):
     """
-    :param variance: Variance in the result of the attack.
+    :param std_dev: Standard deviation in the result of the attack.
     :param scaling_parameter: Adjusts the cost.
-    :return: Cost of setting 'variance'.
+    :return: Cost of setting 'std_dev'.
     """
-    return scaling_parameter / variance
+    return scaling_parameter / std_dev

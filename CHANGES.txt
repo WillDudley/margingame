@@ -7,3 +7,4 @@ V0.2.1 - Ported margingame.notebook.visualise from .ipynb to .py.
 V0.2.2 - Tweaked effort costs.
 V0.2.3 - Extended slider ranges.
 V0.2.4 - Changed probability calculation
+V0.2.5 - Refactored variance to std_dev. Removed margin midpoints dependence on std_dev.
