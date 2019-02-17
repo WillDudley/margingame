@@ -6,3 +6,4 @@ V0.2.0 - Basic interactive heatmaps implemented.
 V0.2.1 - Ported margingame.notebook.visualise from .ipynb to .py.
 V0.2.2 - Tweaked effort costs.
 V0.2.3 - Extended slider ranges.
+V0.2.4 - Changed probability calculation
