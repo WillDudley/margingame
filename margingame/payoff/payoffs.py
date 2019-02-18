@@ -103,4 +103,3 @@ def payoff_matrix_with_costs(no_of_deltas=4,
                                                                          defender=defender)
 
     return payoff_matrix
-

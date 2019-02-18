@@ -7,7 +7,7 @@ from ipywidgets import fixed
 
 def plot_heatmaps(d1, d2, d3,
                   a1, a2, a3,
-                  delta_parameter, prob_b_parameter, std_dev,
+                  delta_parameter, prob_b_parameter, std_dev_parameter,
                   no_of_deltas=4,
                   delta_limit=2,
                   no_of_probabilities=4,
@@ -22,7 +22,7 @@ def plot_heatmaps(d1, d2, d3,
                       adversary_naive_payoffs=(a1, a2, a3),
                       delta_parameter=delta_parameter,
                       prob_b_parameter=prob_b_parameter,
-                      std_dev_parameter=std_dev)
+                      std_dev_parameter=std_dev_parameter)
 
     f, (ax1, ax2) = plt.subplots(2, figsize=(32, 12))
     f.figsize = (6, 32)
@@ -109,12 +109,12 @@ def visualise(no_of_deltas=4,
                                            continuous_update=False,
                                            style=style)
     std_dev_parameter = widgets.FloatSlider(value=0.2,
-                                             min=0.1,
-                                             max=20,
-                                             step=0.05,
-                                             description='Std_dev parameter:',
-                                             continuous_update=False,
-                                             style=style)
+                                            min=0.1,
+                                            max=20,
+                                            step=0.05,
+                                            description='Std_dev parameter:',
+                                            continuous_update=False,
+                                            style=style)
 
     tab = widgets.Tab(children=[widgets.HBox([delta_parameter, prob_b_parameter, std_dev_parameter]),
                                 widgets.HBox([a1, a2, a3]),
