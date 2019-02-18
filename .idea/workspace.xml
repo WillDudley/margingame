@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6a7e6e-1247-4016-9d94-e1c79aed7684" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/margingame.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/margingame.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/margingame/notebook/visualise.py" beforeDir="false" afterPath="$PROJECT_DIR$/margingame/notebook/visualise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/margingame/payoff/payoffs.py" beforeDir="false" afterPath="$PROJECT_DIR$/margingame/payoff/payoffs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-    </list>
+    <list default="true" id="4a6a7e6e-1247-4016-9d94-e1c79aed7684" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,12 +380,12 @@
       <workItem from="1550427337380" duration="2984000" />
       <workItem from="1550435050866" duration="33000" />
       <workItem from="1550438672835" duration="4023000" />
-      <workItem from="1550446729984" duration="3382000" />
+      <workItem from="1550446729984" duration="3489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48111000" />
+    <option name="totallyTimeSpent" value="48218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
