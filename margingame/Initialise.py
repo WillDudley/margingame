@@ -7,8 +7,8 @@ from margingame.payoff.payoffs import payoff_matrix_with_costs
 
 class Initialise:
     def __init__(self,
-                 no_of_deltas=6,
-                 delta_limit=1.5,
+                 no_of_deltas=10,
+                 delta_limit=2,
                  no_of_probabilities=4,
                  no_of_std_devs=4,
                  std_dev_limit=2,

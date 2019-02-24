@@ -40,8 +40,8 @@ def plot_heatmaps(d1, d2, d3,
     ax2.set_xlabel("Attacker's confidence, prob_b-std_dev")
 
 
-def visualise(no_of_deltas=6,
-              delta_limit=1.5,
+def visualise(no_of_deltas=10,
+              delta_limit=2,
               no_of_probabilities=4,
               no_of_std_devs=4,
               std_dev_limit=2):
