@@ -12,8 +12,8 @@ class Initialise:
                  no_of_probabilities=4,
                  no_of_std_devs=4,
                  std_dev_limit=2,
-                 defender_naive_payoffs=(0, 20, -50),
-                 adversary_naive_payoffs=(0, -50, 20),
+                 defender_naive_payoffs=(0, 25, -50),
+                 adversary_naive_payoffs=(0, -10, 50),
                  delta_parameter=5,
                  prob_b_parameter=5,
                  std_dev_parameter=1):
