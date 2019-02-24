@@ -95,9 +95,9 @@ def visualise(no_of_deltas=4,
 
     # Cost parameters
     delta_parameter = widgets.FloatSlider(value=1,
-                                          min=0.01,
+                                          min=0.1,
                                           max=10,
-                                          step=0.01,
+                                          step=0.1,
                                           description='Delta parameter:',
                                           continuous_update=False,
                                           style=style)
