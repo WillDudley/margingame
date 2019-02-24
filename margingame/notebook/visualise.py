@@ -40,10 +40,10 @@ def plot_heatmaps(d1, d2, d3,
     ax2.set_xlabel("Attacker's confidence, prob_b-std_dev")
 
 
-def visualise(no_of_deltas=4,
-              delta_limit=2,
+def visualise(no_of_deltas=6,
+              delta_limit=1.5,
               no_of_probabilities=4,
-              no_of_std_devs=3,
+              no_of_std_devs=4,
               std_dev_limit=2):
     style = {'description_width': 'initial'}
 
@@ -55,14 +55,14 @@ def visualise(no_of_deltas=4,
                            description='Quench:',
                            continuous_update=False,
                            style=style)
-    a2 = widgets.IntSlider(value=-5,
+    a2 = widgets.IntSlider(value=-50,
                            min=-50,
                            max=50,
                            step=5,
                            description='Detain:',
                            continuous_update=False,
                            style=style)
-    a3 = widgets.IntSlider(value=25,
+    a3 = widgets.IntSlider(value=20,
                            min=-50,
                            max=50,
                            step=5,
@@ -71,14 +71,14 @@ def visualise(no_of_deltas=4,
                            style=style)
 
     # Defender naive payoffs
-    d1 = widgets.IntSlider(value=5,
+    d1 = widgets.IntSlider(value=0,
                            min=-50,
                            max=50,
                            step=5,
                            description='Quench:',
                            continuous_update=False,
                            style=style)
-    d2 = widgets.IntSlider(value=10,
+    d2 = widgets.IntSlider(value=20,
                            min=-50,
                            max=50,
                            step=5,
@@ -94,24 +94,24 @@ def visualise(no_of_deltas=4,
                            style=style)
 
     # Cost parameters
-    delta_parameter = widgets.FloatSlider(value=1,
+    delta_parameter = widgets.FloatSlider(value=5,
                                           min=0.1,
                                           max=10,
                                           step=0.1,
                                           description='Delta parameter:',
                                           continuous_update=False,
                                           style=style)
-    prob_b_parameter = widgets.FloatSlider(value=1,
+    prob_b_parameter = widgets.FloatSlider(value=5,
                                            min=0.1,
                                            max=10,
-                                           step=0.2,
+                                           step=0.1,
                                            description='Prob_b parameter:',
                                            continuous_update=False,
                                            style=style)
-    std_dev_parameter = widgets.FloatSlider(value=0.2,
+    std_dev_parameter = widgets.FloatSlider(value=1,
                                             min=0.1,
                                             max=5,
-                                            step=0.05,
+                                            step=0.1,
                                             description='Std_dev parameter:',
                                             continuous_update=False,
                                             style=style)

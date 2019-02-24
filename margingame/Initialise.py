@@ -7,16 +7,16 @@ from margingame.payoff.payoffs import payoff_matrix_with_costs
 
 class Initialise:
     def __init__(self,
-                 no_of_deltas=4,
-                 delta_limit=2,
+                 no_of_deltas=6,
+                 delta_limit=1.5,
                  no_of_probabilities=4,
-                 no_of_std_devs=3,
+                 no_of_std_devs=4,
                  std_dev_limit=2,
-                 defender_naive_payoffs=(0, 25, -50),
-                 adversary_naive_payoffs=(0, -10, 50),
-                 delta_parameter=4,
-                 prob_b_parameter=3,
-                 std_dev_parameter=3):
+                 defender_naive_payoffs=(0, 20, -50),
+                 adversary_naive_payoffs=(0, -50, 20),
+                 delta_parameter=5,
+                 prob_b_parameter=5,
+                 std_dev_parameter=1):
 
         self.attacker_payoff_matrix = payoff_matrix_with_costs(no_of_deltas=no_of_deltas,
                                                                delta_limit=delta_limit,
