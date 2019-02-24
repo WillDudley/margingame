@@ -60,3 +60,14 @@ class Initialise:
         game = nash.Game(A, B)
         equilibria = game.support_enumeration()
         return list(equilibria)
+
+    def calculate_equilibria_vertex_enum(self, A=None, B=None):
+        """
+        :return: List of equilibria for the game found via support enumeration
+        """
+        if A is None and B is None:
+            A, B = self.dask_A, self.dask_B
+
+        game = nash.Game(A, B)
+        equilibria = game.vertex_enumeration()
+        return list(equilibria)
