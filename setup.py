@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="margingame",
-    version="0.2.7w",
+    version="0.2.8",
     author="WillDudley",
     author_email="Will2346@live.co.uk",
     description="A package for the margin game.",
