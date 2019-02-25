@@ -18,3 +18,4 @@ V0.2.12 - Changed default values.
 V0.3.0 - Added vertex enumeration.
 V0.3.1 - Changed default values.
 V0.3.2 - Changed payoff slider ranges.
+V0.3.3 - Swapped A and B (logic error).

@@ -27,11 +27,11 @@ def plot_heatmaps(d1, d2, d3,
     f, (ax1, ax2) = plt.subplots(2, figsize=(32, 12))
     f.figsize = (6, 32)
 
-    sns.heatmap(Game.attacker_payoff_matrix, ax=ax1, annot=True, linewidths=0.3)
-    sns.heatmap(Game.defender_payoff_matrix, ax=ax2, annot=True, linewidths=0.3)
+    sns.heatmap(Game.defender_payoff_matrix, ax=ax1, annot=True, linewidths=0.3)
+    sns.heatmap(Game.attacker_payoff_matrix, ax=ax2, annot=True, linewidths=0.3)
 
-    ax1.set_title("Attacker Payoff Matrix")
-    ax2.set_title("Defender Payoff Matrix")
+    ax1.set_title("Defender Payoff Matrix")
+    ax2.set_title("Attacker Payoff Matrix")
 
     ax1.set_ylabel("Uncertainty margin width, delta")
     ax2.set_ylabel("Uncertainty margin width, delta")
